@@ -6,7 +6,7 @@ It is held here to teach the class git.
 # Git Guide
 ## Cloning
 ```bash
-git clone https://gitlab.com/56independent/astro-pi/
+git clone https://github.com/56independent/astro-pi
 
 # Run once; brings you a local copy of the code
 
