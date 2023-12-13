@@ -3,13 +3,23 @@ This project is a organisation repository for the [astro-pi](https://astro-pi.or
 
 It is held here to teach the class git.
 
-Simply, to do things:
-
+# Git Guide
+## Cloning
 ```bash
 git clone https://gitlab.com/56independent/astro-pi/
 
 # Run once; brings you a local copy of the code
+
+# Linux:
+pip install opencv-python
+
+# Failing that:
+
+python -m pip install opencv-python
 ```
+
+## Working on changes
+Before changing:
 
 ```bash
 git pull
@@ -17,6 +27,8 @@ git pull
 
 # Run before changing any code; brings you the latest copy of the code
 ```
+
+After changing
 
 ```bash
 git add *
