@@ -15,5 +15,15 @@ import photoManager
 import physicsCalculator
 import diffChecker
 import finals
+import time
 
 photoNames = []
+
+for i in range(600*4){
+    photoNames.append(takePhoto())
+    if photoNames.length > 2:
+        distance = findDiff(photoNames[0:], photoNames[1:])
+    
+    time.sleep(0.25)
+}
+
